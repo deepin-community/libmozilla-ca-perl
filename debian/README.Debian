@@ -1,0 +1,11 @@
+Mozilla::CA for Debian
+----------------------
+
+Note that this module on Debian GNU/Linux returns simply the /etc/ssl/certs/ca-certificates.crt
+that contains the Mozilla certificates distributed and updated by Debian.
+
+This package is provided in the hypothesis it is used by other CPAN modules in order
+to avoid patching each of them. It does not distribute its own copies of Mozilla certs
+as on other systems.
+
+-- Francesco Paolo Lovergine <frankie@debian.org>, Mon,  18 September 2023 18:54:00 +0200
